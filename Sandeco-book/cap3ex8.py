@@ -1,6 +1,6 @@
 '''
 Este programa simula um caixa eletrônico. Ele permite que o usuário insira o valor de saque desejado (em múltiplos de 10) e exibe quantas cédulas
-de cada denominação (R$100, R$50, R$20, R$10) serão necessárias para totalizar o valor do saque, utilizando o menor número possível de cédulas.
+de cada denominação (R$100, R$50, R$20, R$10) serão necessárias para totalizar o valor do saque, utilizando o menor número possível de cédulas e "greedy algorithm".
 '''
 
 saque = int(input('Digite o valor desejado de saque (múltiplos de 10): '))
